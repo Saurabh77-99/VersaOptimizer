@@ -3,7 +3,10 @@
 ## Prerequisites
 Before installing the LLVM-based Deep Learning Optimizer, ensure that you have the following prerequisites installed on your system:
 - LLVM (version 10.0 or higher)
-  - For macOS with Apple Silicon, you may need to build LLVM from source or use a compatible binary distribution.
+  - For macOS with Apple Silicon, 
+   ```
+   brew install llvm
+   ```
 - CMake (version 3.10 or higher)
 - C++ compiler with C++17 support (e.g., GCC, Clang, Apple Clang)
 
