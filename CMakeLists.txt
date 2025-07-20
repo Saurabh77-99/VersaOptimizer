@@ -13,10 +13,6 @@ find_package(LLVM REQUIRED CONFIG)
 
 # Include LLVM headers
 include_directories(${LLVM_INCLUDE_DIRS})
-# include_directories("C:/Users/HP/OneDrive/Desktop/llvm-project/llvm/include")
-# include_directories("C:/Users/HP/OneDrive/Desktop/llvm-project/llvm/include/llvm/Config")
-# include_directories("C:/Users/HP/OneDrive/Desktop/llvm-project/llvm/include/llvm/ADT")
-# include_directories("C:/Users/HP/OneDrive/Desktop/llvm-project/llvm/include/llvm/IR")
 
 message(STATUS "Found LLVM ${LLVM_PACKAGE_VERSION}")
 message(STATUS "Using LLVMConfig.cmake in: ${LLVM_DIR}")
